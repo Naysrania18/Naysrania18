@@ -1,13 +1,11 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=4000&pause=1000&color=4A90E2&center=true&vCenter=true&width=600&lines=Sandeep+Naysrania;QA+Engineer+%7C+API+Testing+Specialist;Python+Automation+%7C+Certified+AWS+Cloud+Practitioner;Cybersecurity+Master's+Student+%40+ATU" alt="Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Sandeep%20Naysrania&fontSize=40&fontAlignY=35" />
 </p>
-
-<div align="center">
+<h3 align="center">
+  QA Engineer | API Testing | Python Automation | Cybersecurity Student @ ATU
+</h3>
   
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sandeepnaysrania)
-  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sandeepnaysrania@gmail.com)
-  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Naysrania18)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](#)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sandeepnaysrania)
 
 </div>
 
@@ -15,14 +13,13 @@
 
 ## 👨‍💻 About Me
 
-I'm a **QA Engineer & API Testing Specialist** with **6+ years** of experience in software testing, automation, and API validation. Currently pursuing my **Master's in Cybersecurity** at Atlantic Technological University, Ireland, while enhancing my expertise in securing modern digital infrastructures.
+I'm a **QA Engineer & API Testing** with **6+ years** of experience in software testing, automation, and API validation. Currently pursuing my **Master's in Cybersecurity** at Atlantic Technological University, Ireland, while enhancing my expertise in securing modern digital infrastructures.
 
 **⚡ Quick Facts:**
 - 🔭 Currently advancing expertise in **Cybersecurity & Network Security**
 - 🌱 Certified in **Python Programming & AWS Cloud Practitioner**
 - 💼 6+ years in **Quality Assurance, Automation, and Data Analysis**
 - 🎓 Master's in Cybersecurity (2025-2026) @ Atlantic Technological University
-- 📍 Based in **Letterkenny, County Donegal, Ireland**
 
 ---
 
@@ -79,14 +76,14 @@ I'm a **QA Engineer & API Testing Specialist** with **6+ years** of experience i
 
 ## 🎓 Education & Certifications
 
-| **Qualification** | **Institution** | **Year/Duration** |
-|-------------------|----------------|-------------------|
-| **M.Sc. Cybersecurity** | Atlantic Technological University, Ireland | 2025-2026 |
-| **B.Sc. Computer Science** | Maharishi Dayanand Saraswati University | 2012-2015 |
-| **AWS Certified Cloud Practitioner** | Amazon Web Services | 2023 |
-| **Python Programming Professional** | OpenEDG Python Institute | 2022 |
-| **Network Support & Security** | Professional Certification | Ongoing |
-| **Python Automation & Testing** | Specialized Training | 2022 |
+| **Qualification** | **Institution** | 
+|-------------------|----------------|
+| **M.Sc. Cybersecurity** | Atlantic Technological University, Ireland 
+| **B.Sc. Computer Science** | Maharishi Dayanand Saraswati University 
+| **AWS Certified Cloud Practitioner** | Amazon Web Services 
+| **Python Programming Professional** | OpenEDG Python Institute 
+| **Network Support & Security** | Professional Certification 
+| **Python Automation & Testing** | Specialized Training |
 
 ---
 
