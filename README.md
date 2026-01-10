@@ -85,17 +85,6 @@ I'm a **QA Engineer & API Testing** with **6+ years** of experience in software 
 | **Network Support & Security** | Professional Certification 
 | **Python Automation & Testing** | Specialized Training |
 
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-  
-  ![](https://github-readme-stats.vercel.app/api?username=Naysrania18&show_icons=true&theme=dark&hide_border=true&count_private=true)
-  ![](https://github-readme-streak-stats.herokuapp.com/?user=Naysrania18&theme=dark&hide_border=true)
-  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Naysrania18&theme=dark&hide_border=true&layout=compact&langs_count=8)
-
-</div>
 
 ---
 
@@ -155,10 +144,6 @@ I'm passionate about:
 - **Continuous Learning** and **Professional Development**
 - **Open Source Contributions** in testing tools
 
-**📬 Get in touch:**
-- **Email:** sandeepnaysrania@gmail.com
-- **LinkedIn:** [sandeepnaysrania](https://linkedin.com/in/sandeepnaysrania)
-- **Location:** Letterkenny, County Donegal, Ireland
 
 ---
 
