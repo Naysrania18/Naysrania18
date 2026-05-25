@@ -21,7 +21,7 @@
 ---
 
 Testing web apps, APIs, and security boundaries.  
-**Breaking things on purpose — so they don't break for real.**
+
 
 ---
 
