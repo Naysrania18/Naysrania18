@@ -10,12 +10,7 @@
   <a href="https://www.linkedin.com/in/sandeepnaysrania">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://github.com/Naysrania18">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
-  </a>
-  <a href="https://hackerone.com/yourusername">
-    <img src="https://img.shields.io/badge/HackerOne-494649?style=flat&logo=hackerone&logoColor=white" />
-  </a>
+  
 </p>
 
 ---
