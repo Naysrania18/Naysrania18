@@ -3,7 +3,7 @@
 </p>
 
 <h3 align="center">
-  QA Engineer | API Testing | Cybersecurity (MSc) | Bug Bounty Hunter
+  QA Engineer |Penetration tester| API Testing | Cybersecurity (MSc) | Bug Bounty Hunter
 </h3>
 
 <p align="center">
@@ -23,7 +23,7 @@ Testing web apps, APIs, and security boundaries.
 ## 🎯 Currently
 
 - API automation with **Postman**, **Playwright** & **Python**
-- Web app security testing (**OWASP**, **PortSwigger labs**)
+- Web app security testing (**Burp Suite**,**OWASP**)
 - Active on **HackerOne** — learning by hunting bugs
 - **M.Sc. Cybersecurity** @ Atlantic Technological University, Ireland
 
@@ -31,7 +31,7 @@ Testing web apps, APIs, and security boundaries.
 
 ## 🛠️ Tech
 
-`Playwright` · `Selenium` · `Python` · `Postman` · `REST/GraphQL` · `Jenkins` · `Docker` · `AWS` · `JIRA`
+`Playwright` · `Selenium` · `Python` ·`BurpSuite`. `Postman` · `REST/GraphQL` · `Jenkins` · `Docker` · `AWS` · `JIRA`
 
 ---
 
