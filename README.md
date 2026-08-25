@@ -3,7 +3,7 @@
 </p>
 
 <h3 align="center">
-  QA Engineer | Penetration tester | API Testing | Cybersecurity (MSc) | Bug Bounty Hunter
+  QA Engineer | Penetration Tester | API Testing | Cybersecurity (MSc) | Bug Bounty Hunter
 </h3>
 
 <p align="center">
