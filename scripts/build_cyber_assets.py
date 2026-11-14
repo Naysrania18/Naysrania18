@@ -52,13 +52,14 @@ def banner(cal=None):
 def tagline():
     from textpath import text_path, width
     t1, t2 = "Quality and security engineering, ", "automated."
-    size = 26; w1 = width("sg-500.woff", t1, size); w2 = width("sg-500.woff", t2, size)
+    size = 40; w1 = width("sg-500.woff", t1, size); w2 = width("sg-500.woff", t2, size)
     x = 600 - (w1 + w2) / 2
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" role="img" aria-label="Quality and security engineering, automated.">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img" aria-label="Quality and security engineering, automated.">
 {DEFS}
-<rect width="1200" height="64" rx="12" fill="url(#bg)" stroke="{CY}" stroke-opacity=".3"/>
-<path d="{text_path("sg-500.woff", t1, size, x, 40)}" fill="{TXT}"/>
-<path d="{text_path("sg-500.woff", t2, size, x + w1, 40)}" fill="{CY}"/>
+<rect width="1200" height="112" rx="12" fill="url(#bg)" stroke="{CY}" stroke-opacity=".3"/>
+<path d="{text_path("sg-500.woff", t1, size, x, 58)}" fill="{TXT}"/>
+<path d="{text_path("sg-500.woff", t2, size, x + w1, 58)}" fill="{CY}"/>
+<rect x="560" y="80" width="80" height="4" rx="2" fill="{CY}"/>
 </svg>'''
 
 

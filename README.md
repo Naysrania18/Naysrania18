@@ -1,9 +1,8 @@
-<p align="right"><a href="https://www.linkedin.com/in/sandeepnaysrania"><img src="assets/linkedin.svg?v=3" alt="LinkedIn: sandeepnaysrania" height="44"></a></p>
+<p align="right"><a href="https://www.linkedin.com/in/sandeepnaysrania"><img src="assets/linkedin.svg?v=4" alt="LinkedIn: sandeepnaysrania" height="44"></a></p>
 
-<p align="center"><img src="assets/banner.svg?v=3" alt="Sandeep Kumar Naysrania, quality and security engineer" width="100%"></p>
+<p align="center"><img src="assets/banner.svg?v=4" alt="Sandeep Kumar Naysrania, quality and security engineer" width="100%"></p>
 
-<h2 align="center">Hi, I'm Sandeep</h2>
-<p align="center"><img src="assets/tagline.svg?v=3" alt="Quality and security engineering, automated." width="100%"></p>
+<p align="center"><img src="assets/tagline.svg?v=4" alt="Quality and security engineering, automated." width="100%"></p>
 
 ## What I Do
 
@@ -14,15 +13,15 @@
 
 ## How I Test
 
-<p align="center"><a href="#how-i-test"><img src="assets/pipeline.svg?v=3" alt="Animated process: application testing and security testing run in parallel and meet at a quality gate" width="100%"></a></p>
+<p align="center"><a href="#how-i-test"><img src="assets/pipeline.svg?v=4" alt="Animated process: application testing and security testing run in parallel and meet at a quality gate" width="100%"></a></p>
 
 ## Tech Stack & Tools
 
-<p align="center"><a href="#tech-stack--tools"><img src="assets/stack.svg?v=3" alt="Tech stack: Python, TypeScript, Java, Swift, SQL; pytest, Playwright, Selenium, Next.js, FastAPI; GitHub Actions, Jenkins, Docker, Cloudflare; Burp Suite, OWASP ZAP, Postman" width="100%"></a></p>
+<p align="center"><a href="#tech-stack--tools"><img src="assets/stack.svg?v=4" alt="Tech stack: Python, TypeScript, Java, Swift, SQL; pytest, Playwright, Selenium, Next.js, FastAPI; GitHub Actions, Jenkins, Docker, Cloudflare; Burp Suite, OWASP ZAP, Postman" width="100%"></a></p>
 
-<p align="center"><img src="assets/stats.svg?v=3" alt="210+ Python tests, 66 Java tests, 20+ security labs documented" width="100%"></p>
+<p align="center"><img src="assets/languages.svg?v=4" alt="Public repositories by language" width="100%"></p>
 
-<p align="center"><img src="assets/languages.svg?v=3" alt="Public repositories by language" width="100%"></p>
+<p align="center"><img src="assets/stats.svg?v=4" alt="210+ Python tests, 66 Java tests, 20+ security labs documented" width="100%"></p>
 
 ## Featured Projects
 
@@ -48,5 +47,5 @@
 
 ## Connect
 
-<a href="https://www.linkedin.com/in/sandeepnaysrania"><img src="assets/linkedin.svg?v=3" alt="LinkedIn: sandeepnaysrania" height="44"></a>
+<a href="https://www.linkedin.com/in/sandeepnaysrania"><img src="assets/linkedin.svg?v=4" alt="LinkedIn: sandeepnaysrania" height="44"></a>
 <!-- TODO(owner): add email and portfolio badges when you want them public. -->

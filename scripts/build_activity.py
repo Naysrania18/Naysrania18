@@ -49,12 +49,12 @@ def languages(nodes):
         rows.append(f'''<text x="40" y="{y+14}" font-family="{SANS}" font-size="14" font-weight="600" fill="{TXT}">{name}</text>
 <rect x="190" y="{y}" width="820" height="18" rx="9" fill="{CY}" fill-opacity=".08"/>
 <rect x="190" y="{y}" width="{max(820*k/total, 14):.0f}" height="18" rx="9" fill="{CY}" filter="url(#glow)"/>
-<text x="1160" y="{y+14}" text-anchor="end" font-family="{MONO}" font-size="12" fill="{MUTED}">{k} repos</text>''')
+<text x="1160" y="{y+14}" text-anchor="end" font-family="{MONO}" font-size="12" fill="{MUTED}">{round(100*k/total)}%  ({k} repos)</text>''')
     h = 70 + len(rows) * 34 + 14
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="{h}" viewBox="0 0 1200 {h}" role="img" aria-label="Public repositories by primary language">
 {DEFS}
 <rect width="1200" height="{h}" rx="14" fill="url(#bg)" stroke="{CY}" stroke-opacity=".35"/>
-<text x="40" y="36" font-family="{SANS}" font-size="20" font-weight="700" fill="{TXT}">Public repositories by language</text>
+<text x="40" y="36" font-family="{SANS}" font-size="20" font-weight="700" fill="{TXT}">Public repositories by language  <tspan fill="{MUTED}" font-size="13" font-weight="400">share of {total} repos</tspan></text>
 {"".join(rows)}</svg>'''
 
 
