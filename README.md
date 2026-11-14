@@ -1,48 +1,47 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header&text=Sandeep%20Kumar%20Naysrania&fontSize=35&fontAlignY=35" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Sandeep Kumar Naysrania, quality and security engineer" src="assets/banner-light.svg" width="100%">
+</picture>
 
-<h3 align="center">
-  QA Engineer | Penetration Tester | API Testing | Cybersecurity (MSc) | Bug Bounty Hunter
-</h3>
+**Quality and security engineer building test automation, API security tooling and AI-assisted QA.**
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/sandeepnaysrania">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" />
-  </a>
-  
-</p>
+<!-- TODO(owner): add current role, employer and years of experience here as a 2-3 sentence summary. Not available from GitHub. -->
+I design layered test strategies and security tooling for web and API systems: risk-based planning, automated suites in CI, and scanners that report in formats AppSec teams already use (SARIF). M.Sc. Cybersecurity, Atlantic Technological University, Ireland.
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/capabilities-dark.svg">
+  <img alt="Capabilities: test engineering, application security, AI-assisted QA" src="assets/capabilities-light.svg" width="100%">
+</picture>
 
-Testing web apps, APIs, and security boundaries.  
+## Currently
 
+- Building quality-engineering reference projects with real CI quality gates
+- API and web application security testing with Burp Suite and the OWASP methodology
+- Using LLMs for test design and finding triage, with validation layers and human review
 
----
+## Selected work
 
-## 🎯 Currently
+| Project | Outcome | Stack |
+|---|---|---|
+| [insurance-quality-engineering](https://github.com/Naysrania18/insurance-quality-engineering) | Layered test strategy for a demo commercial-insurance platform: unit, API, contract, SQL, event, migration, performance and security tests behind CI quality gates | TypeScript, Playwright, Pact, k6, OWASP ZAP |
+| [issue-tracker-quality-lab](https://github.com/Naysrania18/issue-tracker-quality-lab) | 210+ Python tests and 66 Java tests against a demo tracker, plus an MCP server and a human-reviewed AI triage agent | Python, Java, Swift, pytest, TestNG, Jenkins |
+| [llm-vuln-triage](https://github.com/Naysrania18/llm-vuln-triage) | Triages Semgrep and Bandit findings with an LLM and checks every claim against the real code to flag hallucinations; includes a precision and recall harness | Python, Semgrep, Bandit, SARIF |
+| [api-security-toolkit](https://github.com/Naysrania18/api-security-toolkit) | Reads an OpenAPI spec and checks for BOLA, broken auth, data exposure and injection; JSON, Markdown and SARIF output | Python, OWASP API Top 10 |
+| [SDET-framework](https://github.com/Naysrania18/SDET-framework) | One framework across API, UI, database and ETL tests with BDD and CI | Python, pytest, Playwright, GitHub Actions |
 
-- API automation with **Postman**, **Playwright** & **Python**
-- Web app security testing (**Burp Suite**,**OWASP**)
-- Active on **HackerOne** — learning by hunting bugs
-- **M.Sc. Cybersecurity** @ Atlantic Technological University, Ireland
+## Experience
 
----
+<!-- TODO(owner): company, role, years from LinkedIn. Left out rather than guessed. -->
+See [LinkedIn](https://www.linkedin.com/in/sandeepnaysrania).
 
-## 🛠️ Tech
+## Stack
 
-`Playwright` · `Selenium` · `Python` ·`BurpSuite`. `Postman` · `REST/GraphQL` · `Jenkins` · `Docker` · `AWS` · `JIRA`
+- **Languages:** Python, TypeScript, Java, Swift, SQL
+- **Testing:** pytest, Playwright, Selenium, RestAssured, Pact, k6, Postman
+- **Security:** Burp Suite, OWASP ZAP, Semgrep, Bandit, nuclei, ffuf
+- **Infrastructure:** GitHub Actions, Jenkins, Docker
 
----
+## Contact
 
-📍 Ireland | Open to QA & security-focused testing roles
-
----
-
-<div align="center">
-  
-  *Find bugs. Break things. Build security.*
-  
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer" />
-  
-</div>
+[LinkedIn](https://www.linkedin.com/in/sandeepnaysrania)
+<!-- TODO(owner): add email and portfolio link if you want them public. -->
