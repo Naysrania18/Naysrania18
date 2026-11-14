@@ -28,8 +28,8 @@ def banner():
 <rect width="1200" height="300" fill="url(#bg)"/>
 {paths}{nodes}
 <rect x="1.5" y="1.5" width="1197" height="297" fill="none" stroke="{CY}" stroke-opacity=".45" stroke-width="1.5"/>
-<text x="64" y="132" font-family="{MONO}" font-size="15" fill="{TEAL}" letter-spacing="3">SANDEEP KUMAR</text>
-<text x="64" y="182" font-family="{SANS}" font-size="54" font-weight="700" fill="{TXT}" letter-spacing="-1">Naysrania</text>
+<text x="64" y="160" font-family="{SANS}" font-size="46" font-weight="700" fill="{TXT}" letter-spacing="-0.5">Sandeep Kumar Naysrania</text>
+<rect x="64" y="182" width="56" height="3" fill="{CY}" filter="url(#glow)"/>
 <text x="64" y="218" font-family="{MONO}" font-size="14" fill="{MUTED}">test automation / API security / AI-assisted QA</text>
 <text x="1030" y="150" text-anchor="end" font-family="{MONO}" font-size="34" font-weight="700" fill="{CY}" filter="url(#glow)">QUALITY &amp;</text>
 <text x="1030" y="192" text-anchor="end" font-family="{MONO}" font-size="34" font-weight="700" fill="{CY}" filter="url(#glow)">SECURITY ENGINEER</text>
@@ -65,6 +65,7 @@ def divider():
 
 if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
-    for name, fn in (("banner", banner), ("stats", stats), ("divider", divider)):
+    import build_process_assets as bp
+    for name, fn in (("banner", banner), ("stats", stats), ("divider", divider), ("pipeline", bp.pipeline), ("stack", bp.stack)):
         (OUT / f"{name}.svg").write_text(fn(), encoding="utf-8")
-    print("wrote banner.svg stats.svg divider.svg")
+    print("wrote banner, stats, divider, pipeline, stack")
