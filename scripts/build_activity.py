@@ -54,7 +54,7 @@ def languages(nodes):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="{h}" viewBox="0 0 1200 {h}" role="img" aria-label="Public repositories by primary language">
 {DEFS}
 <rect width="1200" height="{h}" rx="14" fill="url(#bg)" stroke="{CY}" stroke-opacity=".35"/>
-<text x="40" y="36" font-family="{SANS}" font-size="20" font-weight="700" fill="{TXT}">Public repositories by language  <tspan fill="{MUTED}" font-size="13" font-weight="400">share of {total} repos</tspan></text>
+<text x="40" y="36" font-family="{SANS}" font-size="20" font-weight="700" fill="{TXT}">Public repositories by language  <tspan fill="{MUTED}" font-size="13" font-weight="400">by primary language</tspan></text>
 {"".join(rows)}</svg>'''
 
 
