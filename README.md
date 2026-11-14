@@ -1,9 +1,17 @@
-# Sandeep Kumar Naysrania
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Sandeep Kumar Naysrania, quality and security engineer" src="assets/banner-light.svg" width="100%">
+</picture>
 
 **Quality and security engineer building test automation, API security tooling and AI-assisted QA.**
 
 <!-- TODO(owner): add current role, employer and years of experience here as a 2-3 sentence summary. Not available from GitHub. -->
 I design layered test strategies and security tooling for web and API systems: risk-based planning, automated suites in CI, and scanners that report in formats AppSec teams already use (SARIF). M.Sc. Cybersecurity, Atlantic Technological University, Ireland.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/capabilities-dark.svg">
+  <img alt="Capabilities: test engineering, application security, AI-assisted QA" src="assets/capabilities-light.svg" width="100%">
+</picture>
 
 ## Currently
 
