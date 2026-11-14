@@ -1,9 +1,9 @@
+<p align="right"><a href="https://www.linkedin.com/in/sandeepnaysrania"><img src="assets/linkedin.svg" alt="LinkedIn: sandeepnaysrania" height="44"></a></p>
+
 <p align="center"><img src="assets/banner.svg" alt="Sandeep Kumar Naysrania, quality and security engineer" width="100%"></p>
 
 <h2 align="center">Hi, I'm Sandeep</h2>
-<p align="center">
-  <a href="https://github.com/Naysrania18"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=00E5FF&center=true&vCenter=true&width=640&lines=Quality+and+security+engineering%2C+automated.;Test+automation+%7C+API+security+%7C+AI-assisted+QA" alt="Quality and security engineering, automated."></a>
-</p>
+<p align="center">Quality and security engineering, automated.</p>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
@@ -20,7 +20,7 @@
 
 ## Tech Stack & Tools
 
-<p align="center"><a href="#tech-stack--tools"><img src="assets/stack.svg" alt="Tech stack: Python, TypeScript, Java, Swift, SQL; pytest, Playwright, Selenium, Next.js, FastAPI; GitHub Actions, Jenkins, Docker, Cloudflare; Burp Suite, OWASP ZAP, Postman, k6, Semgrep" width="100%"></a></p>
+<p align="center"><a href="#tech-stack--tools"><img src="assets/stack.svg" alt="Tech stack: Python, TypeScript, Java, Swift, SQL; pytest, Playwright, Selenium, Next.js, FastAPI; GitHub Actions, Jenkins, Docker, Cloudflare; Burp Suite, OWASP ZAP, Postman" width="100%"></a></p>
 
 <p align="center"><img src="assets/stats.svg" alt="210+ Python tests, 66 Java tests, 20+ security labs documented" width="100%"></p>
 
@@ -48,11 +48,7 @@
 - **Education:** M.Sc. Cybersecurity, Atlantic Technological University, Ireland
 - Roles and employers: see [LinkedIn](https://www.linkedin.com/in/sandeepnaysrania)
 
-## Contribution Graph
-
-<img src="assets/activity.svg" alt="Contribution graph, last 12 months" width="100%">
-
 ## Connect
 
-<a href="https://www.linkedin.com/in/sandeepnaysrania"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=00e5ff&labelColor=0d1117" alt="LinkedIn"></a>
+<a href="https://www.linkedin.com/in/sandeepnaysrania"><img src="assets/linkedin.svg" alt="LinkedIn: sandeepnaysrania" height="44"></a>
 <!-- TODO(owner): add email and portfolio badges when you want them public. -->
