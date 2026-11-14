@@ -29,6 +29,17 @@ I design layered test strategies and security tooling for web and API systems: r
 | [api-security-toolkit](https://github.com/Naysrania18/api-security-toolkit) | Reads an OpenAPI spec and checks for BOLA, broken auth, data exposure and injection; JSON, Markdown and SARIF output | Python, OWASP API Top 10 |
 | [SDET-framework](https://github.com/Naysrania18/SDET-framework) | One framework across API, UI, database and ETL tests with BDD and CI | Python, pytest, Playwright, GitHub Actions |
 
+## Achievements
+
+- Built a layered quality suite for a demo insurance platform with enforced coverage gates (90% lines, 85% branches, 90% functions) and four planted defects found and documented
+- Wrote 210+ Python and 66 Java automated tests for a demo issue tracker, with an 85% coverage requirement in CI
+- Designed an LLM triage pipeline that validates every model claim against the real code, evaluated on 22 labelled findings with precision, recall and F1 reported
+- Shipped an OpenAPI-driven API security scanner with SARIF output, covered by 22 tests against a deliberately vulnerable app
+- Documented 20+ solved web security labs while preparing for the Burp Suite Certified Practitioner exam
+- Maintain public, CI-backed repositories with fake data only and explicit authorization guards on security tooling
+
+<!-- TODO(owner): add real certifications, awards, bounty results or employer achievements with numbers. Not available from GitHub. -->
+
 ## Experience
 
 <!-- TODO(owner): company, role, years from LinkedIn. Left out rather than guessed. -->
