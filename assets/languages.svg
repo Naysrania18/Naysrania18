@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="186" viewBox="0 0 1200 186" role="img" aria-label="Public repositories by primary language">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0f1a"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+<linearGradient id="ln" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#14f1d9" stop-opacity="0"/><stop offset=".5" stop-color="#00e5ff"/><stop offset="1" stop-color="#14f1d9" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="186" rx="14" fill="url(#bg)" stroke="#00e5ff" stroke-opacity=".35"/>
+<text x="40" y="36" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#e6edf3">Public repositories by language</text>
+<text x="40" y="84" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#e6edf3">Python</text>
+<rect x="190" y="70" width="820" height="18" rx="9" fill="#00e5ff" fill-opacity=".08"/>
+<rect x="190" y="70" width="644" height="18" rx="9" fill="#00e5ff" filter="url(#glow)"/>
+<text x="1160" y="84" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Courier New',monospace" font-size="12" fill="#8b949e">11 repos</text><text x="40" y="118" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#e6edf3">TypeScript</text>
+<rect x="190" y="104" width="820" height="18" rx="9" fill="#00e5ff" fill-opacity=".08"/>
+<rect x="190" y="104" width="117" height="18" rx="9" fill="#00e5ff" filter="url(#glow)"/>
+<text x="1160" y="118" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Courier New',monospace" font-size="12" fill="#8b949e">2 repos</text><text x="40" y="152" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#e6edf3">HTML</text>
+<rect x="190" y="138" width="820" height="18" rx="9" fill="#00e5ff" fill-opacity=".08"/>
+<rect x="190" y="138" width="59" height="18" rx="9" fill="#00e5ff" filter="url(#glow)"/>
+<text x="1160" y="152" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Courier New',monospace" font-size="12" fill="#8b949e">1 repos</text></svg>

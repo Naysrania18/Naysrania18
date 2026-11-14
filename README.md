@@ -24,10 +24,7 @@
 
 <p align="center"><img src="assets/stats.svg" alt="210+ Python tests, 66 Java tests, 20+ security labs documented" width="100%"></p>
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Naysrania18&show_icons=true&bg_color=0d1117&title_color=00e5ff&icon_color=14f1d9&border_color=00e5ff&text_color=e6edf3" alt="GitHub stats">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Naysrania18&layout=compact&bg_color=0d1117&title_color=00e5ff&icon_color=14f1d9&border_color=00e5ff&text_color=e6edf3" alt="Top languages">
-</p>
+<p align="center"><img src="assets/languages.svg" alt="Public repositories by language" width="100%"></p>
 
 ## Featured Projects
 
@@ -53,7 +50,7 @@
 
 ## Contribution Graph
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Naysrania18&bg_color=0d1117&color=e6edf3&line=00e5ff&point=14f1d9&area=true&area_color=00e5ff&hide_border=true" alt="Contribution graph" width="100%">
+<img src="assets/activity.svg" alt="Contribution graph, last 12 months" width="100%">
 
 ## Connect
 
