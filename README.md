@@ -1,58 +1,67 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Sandeep Kumar Naysrania, quality and security engineer" src="assets/banner-light.svg" width="100%">
-</picture>
+<p align="center"><img src="assets/banner.svg" alt="Sandeep Kumar Naysrania, quality and security engineer" width="100%"></p>
 
-**Quality and security engineer building test automation, API security tooling and AI-assisted QA.**
+<h2 align="center">Hi, I'm Sandeep</h2>
+<p align="center">
+  <a href="https://github.com/Naysrania18"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=00E5FF&center=true&vCenter=true&width=640&lines=Quality+and+security+engineering%2C+automated.;Test+automation+%7C+API+security+%7C+AI-assisted+QA" alt="Quality and security engineering, automated."></a>
+</p>
 
-<!-- TODO(owner): add current role, employer and years of experience here as a 2-3 sentence summary. Not available from GitHub. -->
-I design layered test strategies and security tooling for web and API systems: risk-based planning, automated suites in CI, and scanners that report in formats AppSec teams already use (SARIF). M.Sc. Cybersecurity, Atlantic Technological University, Ireland.
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/capabilities-dark.svg">
-  <img alt="Capabilities: test engineering, application security, AI-assisted QA" src="assets/capabilities-light.svg" width="100%">
-</picture>
+## What I Do
 
-## Currently
+- Design layered test strategies: unit, API, contract, SQL, event, UI, performance and security tests behind CI quality gates
+- Build API security tooling that checks OWASP API Top 10 risks and reports in SARIF
+- Use LLMs for test design and finding triage, with validation layers and human review
+- Document web security labs in Burp Suite while preparing for the BSCP exam
 
-- Building quality-engineering reference projects with real CI quality gates
-- API and web application security testing with Burp Suite and the OWASP methodology
-- Using LLMs for test design and finding triage, with validation layers and human review
+## Tech Stack & Tools
 
-## Selected work
+**Languages**<br>
+<img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=14f1d9&labelColor=0d1117" alt="Python"> <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=14f1d9&labelColor=0d1117" alt="TypeScript"> <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=14f1d9&labelColor=0d1117" alt="Java"> <img src="https://img.shields.io/badge/Swift-0d1117?style=flat-square&logo=swift&logoColor=14f1d9&labelColor=0d1117" alt="Swift"> <img src="https://img.shields.io/badge/SQL-0d1117?style=flat-square&logo=sqlite&logoColor=14f1d9&labelColor=0d1117" alt="SQL">
 
-| Project | Outcome | Stack |
-|---|---|---|
-| [insurance-quality-engineering](https://github.com/Naysrania18/insurance-quality-engineering) | Layered test strategy for a demo commercial-insurance platform: unit, API, contract, SQL, event, migration, performance and security tests behind CI quality gates | TypeScript, Playwright, Pact, k6, OWASP ZAP |
-| [issue-tracker-quality-lab](https://github.com/Naysrania18/issue-tracker-quality-lab) | 210+ Python tests and 66 Java tests against a demo tracker, plus an MCP server and a human-reviewed AI triage agent | Python, Java, Swift, pytest, TestNG, Jenkins |
-| [llm-vuln-triage](https://github.com/Naysrania18/llm-vuln-triage) | Triages Semgrep and Bandit findings with an LLM and checks every claim against the real code to flag hallucinations; includes a precision and recall harness | Python, Semgrep, Bandit, SARIF |
-| [api-security-toolkit](https://github.com/Naysrania18/api-security-toolkit) | Reads an OpenAPI spec and checks for BOLA, broken auth, data exposure and injection; JSON, Markdown and SARIF output | Python, OWASP API Top 10 |
-| [SDET-framework](https://github.com/Naysrania18/SDET-framework) | One framework across API, UI, database and ETL tests with BDD and CI | Python, pytest, Playwright, GitHub Actions |
+**Frameworks**<br>
+<img src="https://img.shields.io/badge/pytest-0d1117?style=flat-square&logo=pytest&logoColor=14f1d9&labelColor=0d1117" alt="pytest"> <img src="https://img.shields.io/badge/Playwright-0d1117?style=flat-square&logo=playwright&logoColor=14f1d9&labelColor=0d1117" alt="Playwright"> <img src="https://img.shields.io/badge/Selenium-0d1117?style=flat-square&logo=selenium&logoColor=14f1d9&labelColor=0d1117" alt="Selenium"> <img src="https://img.shields.io/badge/Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=14f1d9&labelColor=0d1117" alt="Next.js"> <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=14f1d9&labelColor=0d1117" alt="FastAPI">
+
+**Cloud & DevOps**<br>
+<img src="https://img.shields.io/badge/GitHub%20Actions-0d1117?style=flat-square&logo=githubactions&logoColor=14f1d9&labelColor=0d1117" alt="GitHub Actions"> <img src="https://img.shields.io/badge/Jenkins-0d1117?style=flat-square&logo=jenkins&logoColor=14f1d9&labelColor=0d1117" alt="Jenkins"> <img src="https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=14f1d9&labelColor=0d1117" alt="Docker"> <img src="https://img.shields.io/badge/Cloudflare%20Workers-0d1117?style=flat-square&logo=cloudflare&logoColor=14f1d9&labelColor=0d1117" alt="Cloudflare Workers">
+
+**Tools**<br>
+<img src="https://img.shields.io/badge/Burp%20Suite-0d1117?style=flat-square&logo=burpsuite&logoColor=14f1d9&labelColor=0d1117" alt="Burp Suite"> <img src="https://img.shields.io/badge/OWASP%20ZAP-0d1117?style=flat-square&logo=owasp&logoColor=14f1d9&labelColor=0d1117" alt="OWASP ZAP"> <img src="https://img.shields.io/badge/Postman-0d1117?style=flat-square&logo=postman&logoColor=14f1d9&labelColor=0d1117" alt="Postman"> <img src="https://img.shields.io/badge/k6-0d1117?style=flat-square&logo=k6&logoColor=14f1d9&labelColor=0d1117" alt="k6"> <img src="https://img.shields.io/badge/Semgrep-0d1117?style=flat-square&logo=semgrep&logoColor=14f1d9&labelColor=0d1117" alt="Semgrep">
+
+<p align="center"><img src="assets/stats.svg" alt="210+ Python tests, 66 Java tests, 20+ security labs documented" width="100%"></p>
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Naysrania18&show_icons=true&bg_color=0d1117&title_color=00e5ff&icon_color=14f1d9&border_color=00e5ff&text_color=e6edf3" alt="GitHub stats">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Naysrania18&layout=compact&bg_color=0d1117&title_color=00e5ff&icon_color=14f1d9&border_color=00e5ff&text_color=e6edf3" alt="Top languages">
+</p>
+
+## Featured Projects
+
+<table>
+<tr><td width="50%" valign="top"><b><a href="https://github.com/Naysrania18/insurance-quality-engineering">insurance-quality-engineering</a></b><br>Layered test strategy for a demo insurance platform, run behind CI quality gates.<br><sub>TypeScript, Playwright, Pact, k6, OWASP ZAP</sub></td><td width="50%" valign="top"><b><a href="https://github.com/Naysrania18/issue-tracker-quality-lab">issue-tracker-quality-lab</a></b><br>Python, Java and Swift tests for a demo tracker, plus an MCP server and AI triage agent.<br><sub>Python, Java, Swift, pytest, TestNG</sub></td></tr>
+<tr><td width="50%" valign="top"><b><a href="https://github.com/Naysrania18/llm-vuln-triage">llm-vuln-triage</a></b><br>LLM triage of Semgrep and Bandit findings that checks each claim against the real code.<br><sub>Python, Semgrep, Bandit, SARIF</sub></td><td width="50%" valign="top"><b><a href="https://github.com/Naysrania18/api-security-toolkit">api-security-toolkit</a></b><br>OpenAPI-driven OWASP API Top 10 checks with JSON, Markdown and SARIF reports.<br><sub>Python, OWASP API Top 10</sub></td></tr>
+</table>
 
 ## Achievements
 
-- Built a layered quality suite for a demo insurance platform with enforced coverage gates (90% lines, 85% branches, 90% functions) and four planted defects found and documented
-- Wrote 210+ Python and 66 Java automated tests for a demo issue tracker, with an 85% coverage requirement in CI
-- Designed an LLM triage pipeline that validates every model claim against the real code, evaluated on 22 labelled findings with precision, recall and F1 reported
-- Shipped an OpenAPI-driven API security scanner with SARIF output, covered by 22 tests against a deliberately vulnerable app
-- Documented 20+ solved web security labs while preparing for the Burp Suite Certified Practitioner exam
-- Maintain public, CI-backed repositories with fake data only and explicit authorization guards on security tooling
+- Enforced coverage gates (90% lines, 85% branches, 90% functions) on a demo insurance platform and documented four planted defects
+- 210+ Python and 66 Java tests for a demo issue tracker, with an 85% coverage requirement in CI
+- Evaluated an LLM triage pipeline on 22 labelled findings, reporting precision, recall and F1
+- 22 tests covering an OpenAPI-driven security scanner against a deliberately vulnerable app
 
-<!-- TODO(owner): add real certifications, awards, bounty results or employer achievements with numbers. Not available from GitHub. -->
+<!-- TODO(owner): add certifications, awards or work results with numbers (no LinkedIn data was available). -->
 
 ## Experience
 
-<!-- TODO(owner): company, role, years from LinkedIn. Left out rather than guessed. -->
-See [LinkedIn](https://www.linkedin.com/in/sandeepnaysrania).
+<!-- TODO(owner): roles, companies and years from LinkedIn. No LinkedIn data was available; nothing is guessed here. -->
+- **Education:** M.Sc. Cybersecurity, Atlantic Technological University, Ireland
+- Roles and employers: see [LinkedIn](https://www.linkedin.com/in/sandeepnaysrania)
 
-## Stack
+## Contribution Graph
 
-- **Languages:** Python, TypeScript, Java, Swift, SQL
-- **Testing:** pytest, Playwright, Selenium, RestAssured, Pact, k6, Postman
-- **Security:** Burp Suite, OWASP ZAP, Semgrep, Bandit, nuclei, ffuf
-- **Infrastructure:** GitHub Actions, Jenkins, Docker
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Naysrania18&bg_color=0d1117&color=e6edf3&line=00e5ff&point=14f1d9&area=true&area_color=00e5ff&hide_border=true" alt="Contribution graph" width="100%">
 
-## Contact
+## Connect
 
-[LinkedIn](https://www.linkedin.com/in/sandeepnaysrania)
-<!-- TODO(owner): add email and portfolio link if you want them public. -->
+<a href="https://www.linkedin.com/in/sandeepnaysrania"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=00e5ff&labelColor=0d1117" alt="LinkedIn"></a>
+<!-- TODO(owner): add email and portfolio badges when you want them public. -->
