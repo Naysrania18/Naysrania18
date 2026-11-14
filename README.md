@@ -14,19 +14,13 @@
 - Use LLMs for test design and finding triage, with validation layers and human review
 - Document web security labs in Burp Suite while preparing for the BSCP exam
 
+## How I Test
+
+<p align="center"><a href="#how-i-test"><img src="assets/pipeline.svg" alt="Animated process: application testing and security testing run in parallel and meet at a quality gate" width="100%"></a></p>
+
 ## Tech Stack & Tools
 
-**Languages**<br>
-<img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=14f1d9&labelColor=0d1117" alt="Python"> <img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=14f1d9&labelColor=0d1117" alt="TypeScript"> <img src="https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=14f1d9&labelColor=0d1117" alt="Java"> <img src="https://img.shields.io/badge/Swift-0d1117?style=flat-square&logo=swift&logoColor=14f1d9&labelColor=0d1117" alt="Swift"> <img src="https://img.shields.io/badge/SQL-0d1117?style=flat-square&logo=sqlite&logoColor=14f1d9&labelColor=0d1117" alt="SQL">
-
-**Frameworks**<br>
-<img src="https://img.shields.io/badge/pytest-0d1117?style=flat-square&logo=pytest&logoColor=14f1d9&labelColor=0d1117" alt="pytest"> <img src="https://img.shields.io/badge/Playwright-0d1117?style=flat-square&logo=playwright&logoColor=14f1d9&labelColor=0d1117" alt="Playwright"> <img src="https://img.shields.io/badge/Selenium-0d1117?style=flat-square&logo=selenium&logoColor=14f1d9&labelColor=0d1117" alt="Selenium"> <img src="https://img.shields.io/badge/Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=14f1d9&labelColor=0d1117" alt="Next.js"> <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=14f1d9&labelColor=0d1117" alt="FastAPI">
-
-**Cloud & DevOps**<br>
-<img src="https://img.shields.io/badge/GitHub%20Actions-0d1117?style=flat-square&logo=githubactions&logoColor=14f1d9&labelColor=0d1117" alt="GitHub Actions"> <img src="https://img.shields.io/badge/Jenkins-0d1117?style=flat-square&logo=jenkins&logoColor=14f1d9&labelColor=0d1117" alt="Jenkins"> <img src="https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=14f1d9&labelColor=0d1117" alt="Docker"> <img src="https://img.shields.io/badge/Cloudflare%20Workers-0d1117?style=flat-square&logo=cloudflare&logoColor=14f1d9&labelColor=0d1117" alt="Cloudflare Workers">
-
-**Tools**<br>
-<img src="https://img.shields.io/badge/Burp%20Suite-0d1117?style=flat-square&logo=burpsuite&logoColor=14f1d9&labelColor=0d1117" alt="Burp Suite"> <img src="https://img.shields.io/badge/OWASP%20ZAP-0d1117?style=flat-square&logo=owasp&logoColor=14f1d9&labelColor=0d1117" alt="OWASP ZAP"> <img src="https://img.shields.io/badge/Postman-0d1117?style=flat-square&logo=postman&logoColor=14f1d9&labelColor=0d1117" alt="Postman"> <img src="https://img.shields.io/badge/k6-0d1117?style=flat-square&logo=k6&logoColor=14f1d9&labelColor=0d1117" alt="k6"> <img src="https://img.shields.io/badge/Semgrep-0d1117?style=flat-square&logo=semgrep&logoColor=14f1d9&labelColor=0d1117" alt="Semgrep">
+<p align="center"><a href="#tech-stack--tools"><img src="assets/stack.svg" alt="Tech stack: Python, TypeScript, Java, Swift, SQL; pytest, Playwright, Selenium, Next.js, FastAPI; GitHub Actions, Jenkins, Docker, Cloudflare; Burp Suite, OWASP ZAP, Postman, k6, Semgrep" width="100%"></a></p>
 
 <p align="center"><img src="assets/stats.svg" alt="210+ Python tests, 66 Java tests, 20+ security labs documented" width="100%"></p>
 
