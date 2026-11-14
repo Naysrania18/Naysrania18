@@ -28,8 +28,8 @@ def _stage(x, y, label, i, tag):
 
 
 def pipeline():
-    app_tags = ["scope + risk", "pytest, TestNG", "Pact, Playwright", "k6 load"]
-    sec_tags = ["assets + abuse cases", "Semgrep, Bandit", "BOLA, auth, injection", "OWASP ZAP"]
+    app_tags = ["scope + risk", "pytest, TestNG", "Pact, Playwright", "load tests"]
+    sec_tags = ["assets + abuse cases", "static analysis", "BOLA, auth, injection", "OWASP ZAP"]
     lanes = f'''<path id="la" d="M60 {Y_APP} H{GATE[0]-60} L{GATE[0]} {GATE[1]}" fill="none" stroke="{CY}" stroke-opacity=".35" stroke-width="1.5"/>
 <path id="ls" d="M60 {Y_SEC} H{GATE[0]-60} L{GATE[0]} {GATE[1]}" fill="none" stroke="{TEAL}" stroke-opacity=".35" stroke-width="1.5"/>'''
     stages = "".join(_stage(x, Y_APP, l, i, t) for i, (x, l, t) in enumerate(zip(XS, APP, app_tags)))
@@ -55,7 +55,7 @@ GROUPS = [
     ("Languages", [("Python", "python"), ("TypeScript", "typescript"), ("Java", "openjdk"), ("Swift", "swift"), ("SQL", "sqlite")]),
     ("Frameworks", [("pytest", "pytest"), ("Playwright", "playwright"), ("Selenium", "selenium"), ("Next.js", "nextdotjs"), ("FastAPI", "fastapi")]),
     ("Cloud & DevOps", [("GitHub Actions", "githubactions"), ("Jenkins", "jenkins"), ("Docker", "docker"), ("Cloudflare", "cloudflare")]),
-    ("Tools", [("Burp Suite", "burpsuite"), ("OWASP ZAP", "owasp"), ("Postman", "postman"), ("k6", "k6"), ("Semgrep", "semgrep")]),
+    ("Tools", [("Burp Suite", "burpsuite"), ("OWASP ZAP", "owasp"), ("Postman", "postman")]),
 ]
 
 
