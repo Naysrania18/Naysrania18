@@ -5,14 +5,14 @@
 <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <rect width="1200" height="186" rx="14" fill="url(#bg)" stroke="#00e5ff" stroke-opacity=".35"/>
-<text x="40" y="36" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#e6edf3">Public repositories by language</text>
+<text x="40" y="36" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#e6edf3">Public repositories by language  <tspan fill="#8b949e" font-size="13" font-weight="400">share of 14 repos</tspan></text>
 <text x="40" y="84" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#e6edf3">Python</text>
 <rect x="190" y="70" width="820" height="18" rx="9" fill="#00e5ff" fill-opacity=".08"/>
 <rect x="190" y="70" width="644" height="18" rx="9" fill="#00e5ff" filter="url(#glow)"/>
-<text x="1160" y="84" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">11 repos</text><text x="40" y="118" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#e6edf3">TypeScript</text>
+<text x="1160" y="84" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">79%  (11 repos)</text><text x="40" y="118" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#e6edf3">TypeScript</text>
 <rect x="190" y="104" width="820" height="18" rx="9" fill="#00e5ff" fill-opacity=".08"/>
 <rect x="190" y="104" width="117" height="18" rx="9" fill="#00e5ff" filter="url(#glow)"/>
-<text x="1160" y="118" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">2 repos</text><text x="40" y="152" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#e6edf3">HTML</text>
+<text x="1160" y="118" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">14%  (2 repos)</text><text x="40" y="152" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#e6edf3">HTML</text>
 <rect x="190" y="138" width="820" height="18" rx="9" fill="#00e5ff" fill-opacity=".08"/>
 <rect x="190" y="138" width="59" height="18" rx="9" fill="#00e5ff" filter="url(#glow)"/>
-<text x="1160" y="152" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">1 repos</text></svg>
+<text x="1160" y="152" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">7%  (1 repos)</text></svg>

@@ -14,6 +14,9 @@ DEFS = f'''<defs>
 
 
 def banner(cal=None):
+    from textpath import text_path
+    NAME_D = text_path("sg-700.woff", "Sandeep Kumar Naysrania", 46, 64, 150, spacing=-0.4)
+    SUB_D = text_path("inter-400.woff", "Test automation   |   API security   |   AI-assisted QA", 16, 64, 208)
     """Name + role on the left; compact contribution heatmap (last 26 weeks) on the right."""
     traces = [("M0 60 H140 L170 90 H330", (330, 90)), ("M0 270 H90 L120 255 H260", (260, 255)),
               ("M1200 40 H1100 L1070 64 H960", (960, 64)), ("M1200 262 H1100 L1070 238 H960", (960, 238))]
@@ -26,9 +29,12 @@ def banner(cal=None):
         mx = max((d["contributionCount"] for w in weeks for d in w["contributionDays"]), default=1) or 1
         op = lambda n: 0.08 if n == 0 else 0.3 if n / mx <= .25 else 0.55 if n / mx <= .5 else 0.8 if n / mx <= .75 else 1.0
         cell, gap, x0, y0 = 12, 3, 790, 104
-        cells = "".join(
-            f'<rect x="{x0+i*(cell+gap)}" y="{y0+datetime.date.fromisoformat(d["date"]).weekday()*(cell+gap)}" width="{cell}" height="{cell}" rx="2.5" fill="{CY}" fill-opacity="{op(d["contributionCount"])}"/>'
-            for i, w in enumerate(weeks) for d in w["contributionDays"])
+        def cell_svg(i, d):
+            n = d["contributionCount"]; o = op(n); peak = min(o + 0.55, 1.0)
+            x = x0 + i * (cell + gap); y = y0 + datetime.date.fromisoformat(d["date"]).weekday() * (cell + gap)
+            return (f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2.5" fill="{CY}" fill-opacity="{o}">'
+                    f'<animate attributeName="fill-opacity" values="{o};{peak};{o}" keyTimes="0;0.5;1" dur="3.6s" begin="{i*0.09:.2f}s" repeatCount="indefinite"/></rect>')
+        cells = "".join(cell_svg(i, d) for i, w in enumerate(weeks) for d in w["contributionDays"])
         total = sum(d["contributionCount"] for w in weeks for d in w["contributionDays"])
         heat = (f'<text x="{x0}" y="{y0-16}" font-family="{SANS}" font-size="13" font-weight="600" fill="{TXT}">{total} contributions <tspan fill="{MUTED}" font-weight="400">in the last 6 months</tspan></text>' + cells)
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Sandeep Kumar Naysrania, quality and security engineer, with a contribution graph">
@@ -36,11 +42,24 @@ def banner(cal=None):
 <rect width="1200" height="300" fill="url(#bg)"/>
 {paths}{nodes}
 <rect x="1.5" y="1.5" width="1197" height="297" fill="none" stroke="{CY}" stroke-opacity=".4" stroke-width="1.5"/>
-<text x="64" y="140" font-family="{SANS}" font-size="44" font-weight="700" fill="{TXT}" letter-spacing="-0.5">Sandeep Kumar Naysrania</text>
-<rect x="64" y="162" width="56" height="3" fill="{CY}"/>
-<text x="64" y="198" font-family="{SANS}" font-size="20" fill="{CY}">Quality and Security Engineer</text>
-<text x="64" y="226" font-family="{SANS}" font-size="15" fill="{MUTED}">Test automation  |  API security  |  AI-assisted QA</text>
+<path d="{NAME_D}" fill="{TXT}"/>
+<rect x="64" y="172" width="56" height="3" fill="{CY}"/>
+<path d="{SUB_D}" fill="{MUTED}"/>
 {heat}
+</svg>'''
+
+
+def tagline():
+    from textpath import text_path, width
+    t1, t2 = "Quality and security engineering, ", "automated."
+    size = 40; w1 = width("sg-500.woff", t1, size); w2 = width("sg-500.woff", t2, size)
+    x = 600 - (w1 + w2) / 2
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img" aria-label="Quality and security engineering, automated.">
+{DEFS}
+<rect width="1200" height="112" rx="12" fill="url(#bg)" stroke="{CY}" stroke-opacity=".3"/>
+<path d="{text_path("sg-500.woff", t1, size, x, 58)}" fill="{TXT}"/>
+<path d="{text_path("sg-500.woff", t2, size, x + w1, 58)}" fill="{CY}"/>
+<rect x="560" y="80" width="80" height="4" rx="2" fill="{CY}"/>
 </svg>'''
 
 
@@ -87,7 +106,7 @@ if __name__ == "__main__":
     import build_activity as ba
     cal = ba.fetch("Naysrania18")["contributionsCollection"]["contributionCalendar"]
     OUT.mkdir(exist_ok=True)
-    jobs = (("banner", lambda: banner(cal)), ("stats", stats), ("divider", divider), ("pipeline", bp.pipeline), ("stack", bp.stack), ("linkedin", linkedin))
+    jobs = (("banner", lambda: banner(cal)), ("stats", stats), ("pipeline", bp.pipeline), ("stack", bp.stack), ("linkedin", linkedin), ("tagline", tagline))
     for name, fn in jobs:
         (OUT / f"{name}.svg").write_text(fn(), encoding="utf-8")
-    print("wrote banner, stats, divider, pipeline, stack, linkedin")
+    print("wrote banner, stats, pipeline, stack, linkedin, tagline")
